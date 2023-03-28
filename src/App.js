@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import logo from "./assets/dp_logo.jpg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WalletView from "./components/WalletView";
 
 function App() {
+  const Username = "SAGAR SEN";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header logo={logo} Username={Username} />
+        <Routes>
+          <Route path="/" element={<WalletView />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

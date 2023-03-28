@@ -1,0 +1,32 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+
+}
+
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+
+.logoContainer img {
+    width: 65%;
+    border-radius: 50%;
+}
+
+.UserNameBox{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: black;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+}

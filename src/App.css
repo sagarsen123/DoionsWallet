@@ -1,9 +1,12 @@
 .App {
   text-align: center;
-  display: block;
-  width: 366px;
-  background-color: white;
-  height: 90vh;
-  margin: 5vh auto ;
+    display: block;
+    min-width: 493px;
+    max-width:28%;
+    background-color: white;
+    min-height: 1037px;
+    height: 100vh;
+    margin: auto;
+    padding: 1rem;
 }
 

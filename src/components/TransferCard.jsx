@@ -1,17 +1,19 @@
 import React from "react";
 import "../Css/TransferCard.css";
+import TransferLogo from "../assets/Transfer.png"
+
 export default function TransferCard() {
   return (
     <div className="TransferCard">
       <div className="tCardHead">
-        <h2>Balance</h2>
+      <span>TRANSFER MONEY</span>
       </div>
       <div className="currencySBox">
-        10,000
+        <img src={TransferLogo} alt="" />
       </div>
 
       <div className="TransferMoney_Box">
-        <button className="btn btn-dark addMoney-btn">Transfer</button>
+        <button className="btn btn-sm btn-dark addMoney-btn" style={{width:"80%"}}>Transfer</button>
       </div>
     </div>
   );

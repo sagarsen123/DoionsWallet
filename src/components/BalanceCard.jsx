@@ -10,7 +10,7 @@ export default function BalanceCard() {
         </div>
         <div className="BalanceBox">
             <div className="currencySBox">
-                <img src={CurrencyImg} alt="" srcset="" />
+                <img src={CurrencyImg} alt="" />
             </div>
             <div className="CurrentAmountBox">
                 10,000

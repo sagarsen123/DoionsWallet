@@ -1,0 +1,45 @@
+.TransactionComponent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.3rem 0rem;
+    justify-content: center;
+    width: 98%;
+    border-radius: 7px;
+    background-color: #EBEBEB;
+}
+.userImgBox{
+    padding: 0.7rem;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.userImgBox img{
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.TransDetails{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userNameBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+.amontBox{
+    font-weight: 500;
+    font-size: 1.2rem;
+}

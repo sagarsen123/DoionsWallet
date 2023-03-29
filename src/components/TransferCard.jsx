@@ -1,7 +1,7 @@
 import React from "react";
 import "../Css/TransferCard.css";
 import TransferLogo from "../assets/Transfer.png"
-
+import { Link } from 'react-router-dom'
 export default function TransferCard() {
   return (
     <div className="TransferCard">
@@ -13,7 +13,7 @@ export default function TransferCard() {
       </div>
 
       <div className="TransferMoney_Box">
-        <button className="btn btn-sm btn-dark addMoney-btn" style={{width:"80%"}}>Transfer</button>
+        <button className="btn btn-sm btn-dark addMoney-btn" style={{width:"80%"}}><Link to='/transfermoney'>Transfer Money</Link></button>
       </div>
     </div>
   );

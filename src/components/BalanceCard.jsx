@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Css/BalanceCard.css"
 import CurrencyImg from "../assets/RupeeSign.png"
-
+import { Link } from 'react-router-dom'
 export default function BalanceCard() {
   return (
     <div className='BalanceCard'>
@@ -18,7 +18,7 @@ export default function BalanceCard() {
         </div>
         <div className="AddMoney_Box">
             <button className="btn btn-sm btn-dark addMoney-btn" style={{width:"80%"}}>
-                Add Money
+            <Link to="/addMoney">Add Money</Link>    
             </button>
         </div>
     </div>

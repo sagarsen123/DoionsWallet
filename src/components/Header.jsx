@@ -11,7 +11,6 @@ export default function Header(props) {
         </div>
         <div className="UserNameBox">
            {Username}
-           
         </div>
     </header>
   )
